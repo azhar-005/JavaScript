@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz by using HTML CSS and JS</title>
+    <link rel="stylesheet" href="./quiz.css">
+    <script src="./quiz.js"></script>
+</head>
+<body>
+    <button class="start-quiz-btn">Start Quiz</button>
+    <div class="container">
+        <div class="top-bar">
+            <div class="question-counter">
+                <!-- Insert Top Bar Question Count -->
+            </div>
+            <div class="timer">
+                <span><i class="fa-regular fa-clock"></i></span>
+                <span class="time-line"></span>
+        </div>
+        <div class="time_line"></div>
+
+         <div class="ques-text">
+                <!-- Insert Question Here -->
+        </div>
+        <div class="option div">
+                <!-- Insert Option Here -->
+        </div>
+
+        <button class="next-ques-btn click-disable">Next Question</button>
+        </div>
+    </div>
+    
+    <div class="result-div">
+        <i class="fa-solid fa-crown"></i>
+        <span>You've completed the Quiz!</span>
+        <div class="score">
+            <!-- Insert Score Here -->
+        </div>
+        <button class="replay-quiz-btn" onclick="location.reload()">Play Again</button>
+    </div>
+    
+</body>
+</html>
